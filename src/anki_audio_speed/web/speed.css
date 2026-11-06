@@ -1,0 +1,20 @@
+#audio-speed {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-inline-start: 8px;
+  vertical-align: middle;
+  font-size: small;
+  color: var(--fg-subtle);
+}
+
+#audio-speed input {
+  width: 90px;
+  margin: 0;
+  accent-color: var(--button-primary-bg);
+}
+
+#audio-speed span {
+  min-width: 3.2em;
+  font-variant-numeric: tabular-nums;
+}
